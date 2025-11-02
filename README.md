@@ -8,9 +8,6 @@ Assignment: implementing spinlock and semaphore using atomic operations
 <br />
 
 
-## What's left:
-
-There is uncertainty whether the thrid test would run correctly on MacOs. if not we'll need a replacment for `pthread_self()` on macOS. We can also implement some sort of benchmarking tools for the students to test the locks and semaphores implemented in that regard. 
 
 ## How to run:
 This is based on make.
