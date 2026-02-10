@@ -53,6 +53,7 @@ void test(const  char * title , int workerc , ...) {
     }
     
     if(title) printf("%s: %d\n" , title , counter);
+    free(t);
 }
 
 int main () {
